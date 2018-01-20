@@ -21,7 +21,7 @@
   <!--<gap:plugin name="cordova-plugin-fcm" source="npm" spec="*"/>-->   
   <gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="*"/>
   <!--<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" spec="*"/>-->
-  <gap:plugin name="com.phonegap.plugins.facebookconnect" spec="*">
+  <gap:plugin name="phonegap-facebook-plugin"  source="npm" spec="*">
     <param name="APP_ID" value="159327037970985" />
     <param name="APP_NAME" value="Luck Up" />
   </gap:plugin>
