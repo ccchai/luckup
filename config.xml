@@ -18,7 +18,7 @@
   <preference name="android-installLocation" value="auto"/>    
   <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" /> 
   <preference name="LoadingPageDialog" value="Luck Up,Loading ..."/> 
-  <preference name='phonegap-version' value='cli-7.0.1' />
+  <preference name='phonegap-version' value='cli-7.1.0' />
 
  
   <!--<gap:plugin name="cordova-plugin-fcm" source="npm" spec="*"/>-->   
