@@ -13,7 +13,7 @@
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-targetSdkVersion" value="26"/>
 
-  <preference name="android-compileSdkVersion" value="26" />
+ 
 
   <preference name="android-installLocation" value="auto"/>    
   <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" /> 
@@ -24,7 +24,7 @@
   <!--<gap:plugin name="cordova-plugin-fcm" source="npm" spec="*"/>-->   
   <gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="*"/>
   <!--<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" spec="*"/>-->
-  <gap:plugin name="phonegap-facebook-plugin"  source="npm" spec="*">
+  <gap:plugin name="cordova-plugin-facebookconnect-orlando" source="npm" spec="*">
     <param name="APP_ID" value="159327037970985" />
     <param name="APP_NAME" value="Luck Up" />
   </gap:plugin>
