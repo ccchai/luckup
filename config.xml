@@ -1,0 +1,53 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="my.com.uplus.luckup" version="1.0.0" android-versionCode="10000" xmlns:android = "http://schemas.android.com/apk/res/android">
+  <name>Luck Up</name>
+  <description>Luck Up is an auction app that let you win amazing products at a fraction of the retail price.</description>
+  <author href="https://www.luckup.my" email="ccchai@uplus.com.my">Uplus Software</author>
+  <content src="index.html"/>
+
+  <preference name="permissions" value="none"/>
+  <preference name="orientation" value="portrait"/>
+  <preference name="fullscreen" value="false"/>
+  <preference name="show-splash-screen-spinner" value="true"/>
+  <preference name="auto-hide-splash-screen" value="true"/>
+  
+  <preference name="android-minSdkVersion" value="14"/>
+  <preference name="android-targetSdkVersion" value="21"/>
+  <preference name="android-installLocation" value="auto"/>    
+  <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" /> 
+  <preference name="LoadingPageDialog" value="Luck Up,Loading ..."/> 
+  <preference name='phonegap-version' value='cli-7.0.1' />
+
+ 
+  <gap:plugin name="cordova-plugin-fcm" source="npm" spec="*"/>   
+  <gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="*"/>
+  
+  <!--<gap:plugin name="cocoon-plugin-inapps-android-googleplay" source="npm" spec="*"/>-->
+ 
+ 
+
+
+
+  <icon src="icon.png"/>
+  <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
+  <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
+  <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
+  <icon src="www/res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
+ 
+  <access origin="*"/>
+  <plugin name="cordova-plugin-whitelist" version="1"/>
+
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*" launch-external="yes" />
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+    <resource-file src="google-services.json" target="/google-services.json" />
+  </platform>
+  <platform name="ios">
+    <allow-intent href="itms:*"/>
+    <allow-intent href="itms-apps:*"/>
+  </platform>
+</widget>
