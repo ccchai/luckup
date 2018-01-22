@@ -15,7 +15,8 @@
     <div id="helpdiv" class="help-div">
         <h6 class="help-h6" ng-bind="help.Title"></h6>
         <p class="help-p" ng-bind="help.Message"></p>
-        <a ng-href="{{help.Url}}" ng-show="help.LinkText" ng-bind="help.LinkText" class="help-a" target="_system" onclick="document.getElementById('helpdiv').classList.remove('active')"></a>
+        <a ng-href="{{help.Url}}" ng-show="help.Visible == 2" ng-bind="help.LinkText" class="help-a" target="_system" onclick="document.getElementById('helpdiv').classList.remove('active')"></a>
+        <a ng-href="{{help.Url}}" ng-show="help.Visible == 1" ng-bind="help.LinkText" class="help-a" onclick="document.getElementById('helpdiv').classList.remove('active')"></a>
         <button class="icon-close help-button" onclick="document.getElementById('helpdiv').classList.remove('active')"></button>
     </div>
 
@@ -30,3 +31,4 @@
 </body>
 </html>
 
+ 
