@@ -21,15 +21,14 @@
   <preference name='phonegap-version' value='cli-7.1.0' />
 
  
-  <!--<gap:plugin name="cordova-plugin-fcm" source="npm" spec="*"/>-->   
-  <gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="*"/>
-  <!--<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" spec="*"/>-->
+  <gap:plugin name="cordova-plugin-fcm" source="npm" spec="*"/>   
+  <gap:plugin name="cordova-plugin-inappbrowser" source="npm" spec="*"/>  
   <gap:plugin name="cordova-plugin-facebook4" source="npm" spec="~1.9.0">
     <param name="APP_ID" value="159327037970985" />
     <param name="APP_NAME" value="Luck Up" />
   </gap:plugin>
   <!--<gap:plugin name="cocoon-plugin-inapps-android-googleplay" source="npm" spec="*"/>-->
- 
+  <!--<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" spec="*"/>-->
  
 
 
