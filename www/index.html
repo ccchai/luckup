@@ -12,12 +12,19 @@
     <script type="text/javascript" src="cordova.js"></script>
 </head>
 <body>
+    <div id="helpdiv" class="help-div">
+        <h6 class="help-h6" ng-bind="help.Title"></h6>
+        <p class="help-p" ng-bind="help.Message"></p>
+        <a ng-href="{{help.Url}}" ng-show="help.LinkText" ng-bind="help.LinkText" class="help-a" target="_system" onclick="document.getElementById('helpdiv').classList.remove('active')"></a>
+        <button class="icon-close help-button" onclick="document.getElementById('helpdiv').classList.remove('active')"></button>
+    </div>
+
     <div class="u-view" ng-view autoscroll="true"></div>
     <u-loading></u-loading>
     <div id="splash">
         <span class="marquee marquee-splash"></span>
-        <div style="margin-top: 80px">Loading</div> 
-   </div> 
+        <img class="splash-img" src="images/logo-white.png" />
+    </div>
     <script src="core.min.js"></script>
     <script src="custom.min.js"></script>
 </body>
