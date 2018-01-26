@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="my.com.uplus.luckup" version="1.0.1" android-versionCode="10100" xmlns:android = "http://schemas.android.com/apk/res/android">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="my.com.uplus.luckup" version="1.0.2" android-versionCode="10200" xmlns:android = "http://schemas.android.com/apk/res/android">
   <name>Luck Up</name>
   <description>Luck Up is an auction app that let you win amazing products at a fraction of the retail price.</description>
   <author href="https://www.luckup.my" email="ccchai@uplus.com.my">Uplus Software</author>
