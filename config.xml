@@ -29,8 +29,8 @@
     <param name="APP_NAME" value="Luck Up" />
   </gap:plugin>
  <gap:plugin name="cocoon-plugin-inapps-android-googleplay" source="npm" spec="*"/>
-  <gap:plugin spec="https://github.com/ccchai/cordova-plugin-ironsource-ads.git" source="git"  />
-
+  <!--<gap:plugin spec="https://github.com/ccchai/cordova-plugin-ironsource-ads.git" source="git"  />-->
+  <gap:plugin name="cordova-plugin-ironsource" source="npm" spec="*"/>
 
 
 
