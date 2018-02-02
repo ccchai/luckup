@@ -28,9 +28,11 @@
     <param name="APP_ID" value="159327037970985" />
     <param name="APP_NAME" value="Luck Up" />
   </gap:plugin>
- <gap:plugin name="cocoon-plugin-inapps-android-googleplay" source="npm" spec="*"/> 
+ <gap:plugin name="cocoon-plugin-inapps-android-googleplay" source="npm" spec="*"/>
+  <gap:plugin name="cordova-plugin-ironsource-ads" source="npm" spec="*"/>
 
- 
+
+
 
 
 
